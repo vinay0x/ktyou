@@ -1,7 +1,7 @@
 /**
-Template Name: Ubold Dashboard
-Author: CoderThemes
-Email: coderthemes@gmail.com
+
+Author : Vinay Chandran
+Email: vinaychandranvs@gmail.com
 File: Chartjs
 */
 

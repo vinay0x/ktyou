@@ -1,6 +1,6 @@
 /**
 * Theme: Ubold Dashboard
-* Author: Coderthemes
+* Author : Vinay Chandran
 * Foo table
 */
 

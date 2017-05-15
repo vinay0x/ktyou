@@ -1,7 +1,7 @@
 
 /**
 * Theme: Ubold Admin Template
-* Author: Coderthemes
+* Author : Vinay Chandran
 * Morris Chart
 */
 

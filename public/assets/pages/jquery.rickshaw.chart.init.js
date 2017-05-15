@@ -1,6 +1,6 @@
 /**
 * Theme: Velonic Admin Template
-* Author: Coderthemes
+* Author : Vinay Chandran
 * Module/App: RickshawChart Application
 */
 

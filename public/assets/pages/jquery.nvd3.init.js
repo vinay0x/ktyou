@@ -1,6 +1,6 @@
 /**
 * Theme: Ubold Admin
-* Author: Coderthemes
+* Author : Vinay Chandran
 * Chart Nvd3 page
 */
 

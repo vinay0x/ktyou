@@ -1,6 +1,6 @@
 /**
  * Theme: Ubold Admin Template
- * Author: Coderthemes
+ * Author : Vinay Chandran
  * Form Advanced
  */
 

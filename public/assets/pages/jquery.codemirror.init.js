@@ -1,7 +1,7 @@
 
 /**
 * Theme: Ubold Admin Template
-* Author: Coderthemes
+* Author : Vinay Chandran
 * Code Editors page
 */
 
