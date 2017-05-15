@@ -1,14 +1,25 @@
 [debug] ----------------------------------------------------------------------
-[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
 [debug] CLI Version:  3.2.1
 [debug] Platform:     darwin
 [debug] Node Version: v6.9.5
-[debug] Time:         Mon May 15 2017 21:27:20 GMT+0530 (IST)
+[debug] Time:         Mon May 15 2017 23:16:52 GMT+0530 (IST)
 [debug] ----------------------------------------------------------------------
 [debug] 
-[info] Starting Firebase development server...
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/learnwell-35a70 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/learnwell-35a70/tokens 
+[debug] <<< HTTP RESPONSE 200
 [info] 
-[info] Project Directory: /Users/Vinay/projects/learnwell
-[info] Public Directory: public
+[info] === Deploying to 'learnwell-35a70'...
 [info] 
-[info] Server listening at: http://localhost:5000
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/learnwell-35a70/uploads/-KkCD5OlgthDaoyjlWkP?fileCount=3010&message= 
+[debug] <<< HTTP RESPONSE 200
+[info] ✔  hosting: public folder uploaded successfully
+[info] ✔  hosting: 3010 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/learnwell-35a70/releases
