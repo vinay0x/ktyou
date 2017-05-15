@@ -628,67 +628,67 @@
 
 /* -- Radial Inverse -- */
 .radial-bar-inverse.radial-bar-0 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(90deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(90deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-5 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-10 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-15 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-20 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-25 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-30 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-35 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-40 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-45 {
-  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-50 {
-  background-image: linear-gradient(270deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(270deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-55 {
-  background-image: linear-gradient(288deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(288deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-60 {
-  background-image: linear-gradient(306deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(306deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-65 {
-  background-image: linear-gradient(324deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(324deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-70 {
-  background-image: linear-gradient(342deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(342deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-75 {
-  background-image: linear-gradient(360deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(360deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-80 {
-  background-image: linear-gradient(378deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(378deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-85 {
-  background-image: linear-gradient(396deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(396deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-90 {
-  background-image: linear-gradient(414deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(414deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-95 {
-  background-image: linear-gradient(432deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(432deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 .radial-bar-inverse.radial-bar-100 {
-  background-image: linear-gradient(450deg, ##24292e 50%, transparent 50%, transparent), linear-gradient(270deg, ##24292e 50%, #fafafa 50%, #fafafa);
+  background-image: linear-gradient(450deg, #24292e 50%, transparent 50%, transparent), linear-gradient(270deg, #24292e 50%, #fafafa 50%, #fafafa);
 }
 
 .radial-bar-lg {

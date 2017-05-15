@@ -516,7 +516,7 @@ a:focus {
   background-color: #f4f8fb !important;
 }
 .bg-inverse {
-  background-color: ##24292e !important;
+  background-color: #24292e !important;
 }
 .bg-purple {
   background-color: #7266ba !important;
@@ -556,7 +556,7 @@ a:focus {
   color: #34d3eb;
 }
 .text-inverse {
-  color: ##24292e;
+  color: #24292e;
 }
 .text-pink {
   color: #fb6d9d;
@@ -656,7 +656,7 @@ textarea.form-control {
   background-color: #fb6d9d;
 }
 .label-inverse {
-  background-color: ##24292e;
+  background-color: #24292e;
 }
 /* Badge */
 .badge {
@@ -699,7 +699,7 @@ textarea.form-control {
   background-color: #fb6d9d;
 }
 .badge-inverse {
-  background-color: ##24292e;
+  background-color: #24292e;
 }
 /* Pagination/ Pager */
 .pagination > li:first-child > a,
@@ -1222,7 +1222,7 @@ pre {
   text-transform: uppercase;
   font-weight: 600;
   padding: 11px 20px 15px;
-  color: ##24292e;
+  color: #24292e;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .noti-primary {
@@ -1262,8 +1262,8 @@ pre {
   border: 2px solid #5fbeaa;
 }
 .noti-inverse {
-  color: ##24292e;
-  border: 2px solid ##24292e;
+  color: #24292e;
+  border: 2px solid #24292e;
 }
 .navbar-nav {
   margin: 0;

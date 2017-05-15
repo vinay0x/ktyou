@@ -198,7 +198,7 @@
 			backgroundColor : 'transparent',
 			regionStyle : {
 				initial : {
-					fill : '##24292e'
+					fill : '#24292e'
 				}
 			}
 		});
