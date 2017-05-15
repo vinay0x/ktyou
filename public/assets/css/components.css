@@ -63,7 +63,7 @@ File: Components
 .open > .dropdown-toggle.btn-white {
   border: 1px solid #eaeaea !important;
   background-color: #ffffff;
-  color: #4c5667;
+  color: ##24292e;
 }
 .btn-white:hover,
 .btn-white:hover:hover,
@@ -176,8 +176,8 @@ File: Components
 .btn-inverse:focus,
 .btn-inverse:hover,
 .open > .dropdown-toggle.btn-inverse {
-  background-color: #4c5667 !important;
-  border: 1px solid #4c5667 !important;
+  background-color: ##24292e !important;
+  border: 1px solid ##24292e !important;
   color: #ffffff;
   margin-bottom:20px;
 }
@@ -228,18 +228,18 @@ File: Components
   color: #f05050 !important;
 }
 .btn-custom.btn-inverse {
-  color: #4c5667 !important;
+  color: ##24292e !important;
 }
 .btn-custom.btn-purple {
   color: #7266ba !important;
 }
 .btn-custom.btn-white {
-  color: #4c5667 !important;
+  color: ##24292e !important;
 }
 .btn-custom.btn-white:hover,
 .btn-custom.btn-white:focus,
 .btn-custom.btn-white:active {
-  color: #4c5667 !important;
+  color: ##24292e !important;
   background-color: #f4f8fb !important;
 }
 .btn-custom.btn-pink {
@@ -495,8 +495,8 @@ File: Components
   color: #ffffff;
 }
 .checkbox-inverse input[type="checkbox"]:checked + label::before {
-  background-color: #4c5667;
-  border-color: #4c5667;
+  background-color: ##24292e;
+  border-color: ##24292e;
 }
 .checkbox-inverse input[type="checkbox"]:checked + label::after {
   color: #ffffff;
@@ -712,7 +712,7 @@ File: Components
   background-color: #fb6d9d;
 }
 .panel-inverse > .panel-heading {
-  background-color: #4c5667;
+  background-color: ##24292e;
 }
 .panel-border .panel-heading {
   background-color: #ffffff;
@@ -755,8 +755,8 @@ File: Components
   color: #fb6d9d !important;
 }
 .panel-border.panel-inverse .panel-heading {
-  border-color: #4c5667 !important;
-  color: #4c5667 !important;
+  border-color: ##24292e !important;
+  color: ##24292e !important;
 }
 .panel-group .panel .panel-heading a[data-toggle=collapse].collapsed:before {
   content: '\f0d7';
@@ -803,7 +803,7 @@ File: Components
   margin-top: 0;
 }
 .panel .nav-pills li a {
-  color: #4c5667 !important;
+  color: ##24292e !important;
 }
 .panel .nav-pills li.active a {
   color: #ffffff !important;
@@ -968,7 +968,7 @@ File: Components
   background-color: #f05050;
 }
 .progress-bar-inverse {
-  background-color: #4c5667;
+  background-color: ##24292e;
 }
 .progress-bar-purple {
   background-color: #7266ba;
@@ -1549,7 +1549,7 @@ ul.ColVis_collection li {
 }
 .widget-bg-color-icon .bg-icon-inverse {
   background-color: rgba(76, 86, 103, 0.2);
-  border: 1px solid #4c5667;
+  border: 1px solid ##24292e;
 }
 .mini-stat-icon {
   -moz-border-radius: 100%;
@@ -2141,11 +2141,11 @@ ul.ColVis_collection li {
   color: #bcbcbc;
 }
 .cm-s-ambiance .CodeMirror-gutters {
-  background-color: #4c5667 !important;
+  background-color: ##24292e !important;
   box-shadow: none;
 }
 .cm-s-ambiance.CodeMirror {
-  background-color: #4c5667 !important;
+  background-color: ##24292e !important;
   box-shadow: none;
 }
 /* Timepicker */

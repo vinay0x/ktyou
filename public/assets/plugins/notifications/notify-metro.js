@@ -40,7 +40,7 @@ $.notify.addStyle("metro", {
         },
         black: {
             "color": "#fafafa !important",
-            "background-color": "#4c5667",
+            "background-color": "##24292e",
             "border": "1px solid #212121"
         },
         white: {
