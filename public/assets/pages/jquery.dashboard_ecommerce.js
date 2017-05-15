@@ -43,7 +43,7 @@
                 { y: '2014', a: 75,  b: 65, c:30 },
                 { y: '2015', a: 90, b: 60, c:30 }
             ];
-        this.createAreaChartDotted('morris-area-with-dotted', 0, 0, $areaDotData, 'y', ['a', 'b', 'c'], ['Desktops ', 'Tablets ', 'Mobiles '],['#ffffff'],['#999999'], ['#36404a', '#5d9cec','#bbbbbb']);
+        this.createAreaChartDotted('morris-area-with-dotted', 0, 0, $areaDotData, 'y', ['a', 'b', 'c'], ['Desktops ', 'Tablets ', 'Mobiles '],['#ffffff'],['#999999'], ['#24292e', '#5d9cec','#bbbbbb']);
 
     },
     //init

@@ -63,7 +63,7 @@ File: Components
 .open > .dropdown-toggle.btn-white {
   border: 1px solid #eaeaea !important;
   background-color: #ffffff;
-  color: #24292e;
+  color: #4c5667;
 }
 .btn-white:hover,
 .btn-white:hover:hover,
@@ -2077,7 +2077,7 @@ ul.ColVis_collection li {
   border-radius: 2px;
   -moz-border-radius: 2px;
   background-clip: padding-box;
-  color: #36404a;
+  color: #24292e;
   font-weight: 600;
   font-size: 12px;
 }
@@ -2317,7 +2317,7 @@ a.editable-click:hover {
 }
 .autocomplete-suggestions strong {
   font-weight: bold;
-  color: #36404a;
+  color: #24292e;
 }
 .autocomplete-group {
   padding: 2px 5px;
@@ -2325,7 +2325,7 @@ a.editable-click:hover {
 .autocomplete-group strong {
   font-weight: bold;
   font-size: 16px;
-  color: #36404a;
+  color: #24292e;
   display: block;
 }
 /* Image crop */

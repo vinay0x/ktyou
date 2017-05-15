@@ -484,7 +484,7 @@ a:focus {
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
   background-color: #f3f3f3;
-  color: #36404a;
+  color: #24292e;
 }
 .dropup .dropdown-menu {
   box-shadow: 0px -1px 5px 0 rgba(0, 0, 0, 0.26);
@@ -984,7 +984,7 @@ textarea.form-control {
   padding: 15px 25px 15px 25px;
   line-height: 22px;
   font-size: 18px;
-  background-color: #36404a;
+  background-color: #24292e;
   color: #ffffff;
   text-align: left;
   margin: 0px;
@@ -1142,7 +1142,7 @@ pre {
   display: none;
 }
 .navbar-default {
-  background-color: #36404a;
+  background-color: #24292e;
   border-radius: 0px;
   border: none;
   margin-bottom: 0px;
@@ -1246,8 +1246,8 @@ pre {
   border: 2px solid #f05050;
 }
 .noti-dark {
-  color: #36404a;
-  border: 2px solid #36404a;
+  color: #24292e;
+  border: 2px solid #24292e;
 }
 .noti-purple {
   color: #7266ba;
@@ -1369,7 +1369,7 @@ body.fixed-left .side-menu.left {
   color: #5fbeaa !important;
 }
 #sidebar-menu > ul > li > a {
-  color: #36404a;
+  color: #24292e;
   display: block;
   padding: 12px 20px;
   margin: 4px 0px;

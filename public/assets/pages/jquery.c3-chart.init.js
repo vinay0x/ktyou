@@ -50,7 +50,7 @@
                 colors: {
                     data1: '#dcdcdc',
                     data2: '#5d9cec',
-                    data3: '#36404a',
+                    data3: '#24292e',
                     data4: '#fb6d9d',
                     data5: '#5fbeaa'
                 },

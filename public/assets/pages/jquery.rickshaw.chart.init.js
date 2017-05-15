@@ -252,7 +252,7 @@
 
       //create Line-Toggle graph
       var height = [250];
-      var LineTcolors = ["#5fbeaa", "#5d9cec","#36404a"];
+      var LineTcolors = ["#5fbeaa", "#5d9cec","#24292e"];
       var names = ['New York', 'London','Tokyo'];
       this.createLinetoggleGraph("linetoggle", height, LineTcolors, names);
 
@@ -264,7 +264,7 @@
       //create Multi graph
       var Multiheight = [250];
       var multinames = ['Temperature', 'Heat index','Dewpoint','Pop','Humidity'];
-      var multicolors = ['#5fbeaa','#ebeff2','#36404a','#5d9cec','#fb6d9d'];
+      var multicolors = ['#5fbeaa','#ebeff2','#24292e','#5d9cec','#fb6d9d'];
       this.createMultiGraph("multichart", Multiheight, multinames, multicolors);
 
     },
