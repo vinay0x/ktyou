@@ -22,6 +22,9 @@ File: Core
 /* =============
    Common
 ============= */
+
+.nowrap{white-space: normal;}
+
 body {
   background: #ebeff2;
   font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
