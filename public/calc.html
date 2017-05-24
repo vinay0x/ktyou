@@ -35,7 +35,7 @@
   <script src="assets/js/modernizr.min.js"></script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/calc.js"></script>
-  <script src="assets/plugins/parsley/parsley.min.js"></script>
+  <script src="assets/js/parsley.min.js"></script>
   <script src="assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
   <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
 
@@ -156,38 +156,210 @@
           <center>
             <h1 class="text-inverse">CGPA Calculator</h1> </center><br />
           <!-- **************************CALCULATOR BEGIN********************* -->
+          <div class="col-lg-2"></div>
 
-          <div class="card-box col-lg-7" style="padding:30px;">
 
+          <div class="card-box col-lg-8" style="padding-right:10px;">
+
+            <form id="mainForm" class="form-horizontal group-border-dashed data-parsley-validate" action="#">
 
             <!--Semester-->
-            <div class="row card-box" style="padding:30px;">
-                <div class="row">
+            <div class="row" style="padding:30px;">
+                <div class="row form-group">
                   <div class="col-md-8 col-lg-8 col-xs-8">
-                      Select your semester
+                    <h5>Subject #1</h5>
                   </div>
-                  <div class="col-md-4 col-lg-4 col-xs-4">
-                    <select class="selectpicker" data-style="btn-white" style="outline:none;">
-                      <option>S1/S2</option>
-                      <option>S3-S8</option>
-                    </select>
+                  <div class="col-md-2 col-lg-2 col-xs-2"></div>
+                  <div class="col-md-2 col-lg-2 col-xs-2">
+                    <div style="position:absolute;">
+                      <select id="sub1" class="selectpicker" data-style="btn-white">
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="4">P</option>
+                        <option value="0">F</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
+                    <div class="row form-group">
+                      <div class="col-md-8 col-lg-8 col-xs-8">
+                        <h5>Subject #2</h5>
+                      </div>
+                      <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                        <div  style="position:absolute;">
+                          <select id="sub2" class="selectpicker" data-style="btn-white">
+                            <option value="10">O</option>
+                            <option value="9">A+</option>
+                            <option value="8">A</option>
+                            <option value="7">B+</option>
+                            <option value="6">B</option>
+                            <option value="5">C</option>
+                            <option value="4">P</option>
+                            <option value="0">F</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="row form-group">
+                          <div class="col-md-8 col-lg-8 col-xs-8">
+                            <h5>Subject #3</h5>
+                          </div>
+                          <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                            <div  style="position:absolute;">
+                              <select id="sub3" class="selectpicker" data-style="btn-white">
+                                <option value="10">O</option>
+                                <option value="9">A+</option>
+                                <option value="8">A</option>
+                                <option value="7">B+</option>
+                                <option value="6">B</option>
+                                <option value="5">C</option>
+                                <option value="4">P</option>
+                                <option value="0">F</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                            <div class="row form-group">
+                              <div class="col-md-8 col-lg-8 col-xs-8">
+                                <h5>Subject #4</h5>
+                              </div>
+                              <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                                <div  style="position:absolute;">
+                                  <select id="sub4" class="selectpicker" data-style="btn-white">
+                                    <option value="10">O</option>
+                                    <option value="9">A+</option>
+                                    <option value="8">A</option>
+                                    <option value="7">B+</option>
+                                    <option value="6">B</option>
+                                    <option value="5">C</option>
+                                    <option value="4">P</option>
+                                    <option value="0">F</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                                <div class="row form-group">
+                                  <div class="col-md-8 col-lg-8 col-xs-8">
+                                    <h5>Subject #5</h5>
+                                  </div>
+                                  <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                                    <div  style="position:absolute;">
+                                      <select id="sub5" class="selectpicker" data-style="btn-white">
+                                        <option value="10">O</option>
+                                        <option value="9">A+</option>
+                                        <option value="8">A</option>
+                                        <option value="7">B+</option>
+                                        <option value="6">B</option>
+                                        <option value="5">C</option>
+                                        <option value="4">P</option>
+                                        <option value="0">F</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                                    <div class="row form-group">
+<div class="col-md-6 col-lg-6 col-xs-6">
+                                        <h5>Choose your elective</h5>
+                                      </div>
+
+<div class="col-md-4 col-lg-4 col-xs-4">
+                                        <select id="elective" class="selectpicker" data-style="btn-white" style="outline:none;">
+                                                             <option value="b">Business Economics</option>
+                                                             <option value="l">Life Skills</option>
+                                                          </select>
+                                      </div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                                        <div  style="position:absolute;">
+                                          <select id="sub6" class="selectpicker" data-style="btn-white">
+                                            <option value="10">O</option>
+                                            <option value="9">A+</option>
+                                            <option value="8">A</option>
+                                            <option value="7">B+</option>
+                                            <option value="6">B</option>
+                                            <option value="5">C</option>
+                                            <option value="4">P</option>
+                                            <option value="0">F</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                    </div>
+                                        <div class="row form-group">
+                                          <div class="col-md-8 col-lg-8 col-xs-8">
+                                            <h5>Lab/Workshop #1</h5>
+                                          </div>
+                                          <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                                            <div  style="position:absolute;">
+                                              <select id="lab1" class="selectpicker" data-style="btn-white">
+                                                <option value="10">O</option>
+                                                <option value="9">A+</option>
+                                                <option value="8">A</option>
+                                                <option value="7">B+</option>
+                                                <option value="6">B</option>
+                                                <option value="5">C</option>
+                                                <option value="4">P</option>
+                                                <option value="0">F</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                        </div>
+                                            <div class="row form-group">
+                                              <div class="col-md-8 col-lg-8 col-xs-8">
+                                                <h5>Lab/Workshop #2</h5>
+                                              </div>
+                                              <div class="col-md-2 col-lg-2 col-xs-2"></div>
+<div class="col-md-2 col-lg-2 col-xs-2">
+                                                <div  style="position:absolute;">
+                                                  <select id="lab2" class="selectpicker" data-style="btn-white">
+                                                    <option value="10">O</option>
+                                                    <option value="9">A+</option>
+                                                    <option value="8">A</option>
+                                                    <option value="7">B+</option>
+                                                    <option value="6">B</option>
+                                                    <option value="5">C</option>
+                                                    <option value="4">P</option>
+                                                    <option value="0">F</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                            </div>
+
+
+
+
+
+            <div class="row">
+          <center>  <button onclick="myfunction()" type="button" class="btn btn-success btn-rounded waves-effect waves-light">
+                   <span class="btn-label"><i class="fa fa-check"></i></span>
+                   Calculate
+            </button></center><br>
+            <div class="col-lg-3 col-md-3 col-xs-3"></div>
+            <div class="col-lg-6 col-md-6 col-xs-6">
+            <h1 class="hidden-xs myh1" style="text-align:center;float:left;">Your SGPA is&nbsp</h1>
+            <h1 id="sgpaPrint" class="text-custom text-default myh1" style="text-align:left;float:left;"> 0.00</h1>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-3"></div>
 
             </div>
 
-          <button onclick="myfunction()" type="button" class="btn btn-success btn-rounded waves-effect waves-light">
-                   <span class="btn-label"><i class="fa fa-check"></i></span>
-                   Calculate
-                </button>
-
+            </form>
         </div>
+
+        <div class="col-lg-2"></div>
+
         <!-- **************************CALCULATOR END********************* -->
 
 
       </div>
     </div>
-
   </div>
   <!-- container -->
 
@@ -211,7 +383,9 @@
   <!-- END wrapper -->
 
 
-
+  <script>
+    $('#mainForm').parsley();
+  </script>
   <script>
     var resizefunc = [];
   </script>
