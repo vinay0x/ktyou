@@ -1,2 +1,5 @@
 
 workspace.html
+*.bin
+*.lock
+*.properties
