@@ -1316,8 +1316,6 @@ body.fixed-left .side-menu.left {
 }
 .sidebar-inner {
   height: 100%;
-  display: block;
-  width: 100%;
 }
 #sidebar-menu,
 #sidebar-menu ul,
@@ -1335,8 +1333,7 @@ body.fixed-left .side-menu.left {
 #sidebar-menu {
   padding-bottom: 30px;
   padding-top: 30px;
-  display: block;
-  width: 110%;
+  width: 100%;
 }
 #sidebar-menu .nav > li > a .badge {
   position: absolute;
