@@ -4,3 +4,5 @@ workspace.html
 *.lock
 *.properties
 Untitled.js
+.DS_Store
+.DS_Store
