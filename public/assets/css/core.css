@@ -37,7 +37,7 @@ body {
   background: #ebeff2;
   font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: visible;
   color: #797979;
 }
 html {
@@ -1323,6 +1323,7 @@ body.fixed-left .side-menu.left {
   color: #ffffff;
 }
 .sidebar-inner {
+  width: inherit;
   height: 100%;
 }
 #sidebar-menu,
@@ -1385,6 +1386,7 @@ body.fixed-left .side-menu.left {
 #sidebar-menu > ul > li > a {
   color: #24292e;
   display: block;
+  width:100%;
   padding: 12px 20px;
   margin: 4px 0px;
   border-left: 3px solid #ffffff;
