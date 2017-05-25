@@ -264,7 +264,7 @@ a:focus{outline:0;text-decoration:none;}
 .mx-box{max-height:380px;min-height:380px;}
 .thumb-sm{height:32px;width:32px;}
 .thumb-md{height:48px;width:48px;}
-.thumb-lg{height:88px;width:88px;}
+.thumb-lg{height:140px;width:140px;}
 .table-box{display:table;height:100%;width:100%;}
 .table-box .table-detail{display:table-cell;vertical-align:middle;}
 .card-box{padding:20px;border:1px solid rgba(54, 64, 74, 0.05);-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;background-clip:padding-box;margin-bottom:20px;background-color:#ffffff;}
