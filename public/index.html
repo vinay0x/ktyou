@@ -3,6 +3,7 @@
 
 <head>
 
+
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
@@ -327,20 +328,21 @@ document.head.appendChild(fhsh);document.write("<span id='h_"+fhs_id_h+"' style=
     <script src="assets/js/jquery.core.js"></script>
     <script src="assets/js/jquery.app.js"></script>
 
-    <script type="text/javascript">
-      jQuery(document).ready(function($) {
-        $('.counter').counterUp({
-          delay: 100,
-          time: 1200
-        });
+    <script>
+    jQuery(document).ready(function() {
+        $('body').addClass('loaded');
 
-        $(".knob").knob();
-
-      });
+    });
     </script>
 
   </div>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
 
+    <div class="loader-section section-left"></div>
+          <div class="loader-section section-right"></div>
+
+  </div>
 
 </body>
 
